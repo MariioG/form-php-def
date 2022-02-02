@@ -8,9 +8,9 @@
 </head>
 <body>
     <h1>Mostrar datos del formulario</h1>
-    <?php
-    /* código php */
-    
-    ?>
+    <form action="../proc/res.proc.php" method="post">
+        <input type="text" name="pokemon" placeholder="Inserte pokemon...">
+        <input type="submit">
+    </form>
 </body>
 </html>
